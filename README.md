@@ -6,6 +6,7 @@ Configuracion Base Webpack, Babel con React.js
 
 ```
 $ npm i react react-dom -S
+$ npm i axios -S
 ```
 
 #### Dependencias Desarrollo
@@ -43,11 +44,11 @@ $ npm i dotenv-webpack -D
 
 #### Ejemplos de Apps
 
-#### APP: Listado de Usuarios, Configuracion Varibles entorno
+#### APP: Portafolio de Usuarios, Configuracion Varibles entorno
 
 ```
-# Listado de Usuarios - con React, components, hooks
-API_Users = https://reqres.in/api
+# Portafolio de Usuarios - con React, components, hooks
+API_Portafolio=https://randomuser.me/api
 ```
 
-![Home-Page-Users](src/assets/screen_apps/homepageusers.png)
+![Home-Page-Portafolio](src/assets/screen_apps/homepageportafolio.png)

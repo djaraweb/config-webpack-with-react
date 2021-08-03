@@ -1,10 +1,10 @@
 import React from "react";
-import { UsersPage } from "@pages/UsersPage";
+import { PortafolioPage } from "@pages/PortafolioPage";
 
 export const App = () => {
   return (
     <div>
-      <UsersPage />
+      <PortafolioPage />
     </div>
   );
 };
