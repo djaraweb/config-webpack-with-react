@@ -4,7 +4,6 @@ import { UserRow } from "@components/UserRow";
 
 export const UsersPage = () => {
   const { users } = useUsers();
-  console.log(users);
   return (
     <div className="mt-5">
       <h1>Users</h1>

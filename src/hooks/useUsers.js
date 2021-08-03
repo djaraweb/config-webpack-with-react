@@ -11,7 +11,6 @@ export const useUsers = () => {
 
   const getUsers = async () => {
     const resp = await usersApi.get(`${API}/users`);
-    console.log(resp.data.data);
     setUsers(resp.data.data);
   };
 
