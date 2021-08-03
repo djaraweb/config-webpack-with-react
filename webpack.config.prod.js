@@ -18,8 +18,11 @@ module.exports = {
     alias: {
       "@": path.resolve(__dirname, "src/"),
       "@components": path.resolve(__dirname, "src/components/"),
+      "@hooks": path.resolve(__dirname, "src/hooks/"),
+      "@pages": path.resolve(__dirname, "src/pages/"),
       "@styles": path.resolve(__dirname, "src/assets/styles/"),
       "@images": path.resolve(__dirname, "src/assets/images/"),
+      "@servicesApis": path.resolve(__dirname, "src/servicesApis/"),
     },
   },
   mode: "production",

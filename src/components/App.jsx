@@ -1,4 +1,10 @@
 import React from "react";
-const App = () => <h1>Welcome, Project Base with React!!</h1>;
+import { UsersPage } from "@pages/UsersPage";
 
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <UsersPage />
+    </div>
+  );
+};

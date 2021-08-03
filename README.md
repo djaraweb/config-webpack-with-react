@@ -40,3 +40,12 @@ $ npm i dotenv-webpack -D
     "start": "webpack serve --config webpack.config.dev.js"
 }
 ```
+
+#### Ejemplos de Apps
+
+#### Varibles entorno
+
+```
+# Listado de Usuarios - con React, components, hooks
+API_Users = https://reqres.in/api
+```
